@@ -1,0 +1,13 @@
+nombre = input("¿Cual es tu nombre(s)? ")
+apellido_1 = input("¿Cuál es tu primer apellido? ")
+apellido_2 = input ("Cuál es tu segundo apellido? ")
+age = int(input("¿En que año naciste? "))
+mes= int(input ("¿En que mes y año naciste en dd,mm? "))
+año_actual=2022
+
+print("Este es tu nombre en mayusculas "+ nombre.upper()+" "+ apellido_1.upper()+" "+ apellido_2.upper())
+print("Este es tu nombre en minusculas "+ nombre.lower()+ " "+apellido_1.lower()+" "+apellido_2.lower())
+print("tu fecha de nacimiento es ",mes ,age)
+print("tu edad es ",año_actual - age," años")
+print ("tu edad en 10 años sera", año_actual-age+10," años")
+
